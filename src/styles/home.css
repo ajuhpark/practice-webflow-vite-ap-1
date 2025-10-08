@@ -13,4 +13,8 @@
   opacity: 1;
 }
 
+/* Grain effect with CSS custom property for GSAP animation */
+.sj_image_container_grain.sj_grain::before {
+  opacity: var(--grain-opacity, 0);
+}
 
