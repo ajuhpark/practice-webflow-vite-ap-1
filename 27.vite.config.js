@@ -13,9 +13,9 @@ module.exports = defineConfig({
   },
   build: {
     rollupOptions: {
-      input: 'lib/sj_layout_three.js',
+      input: 'lib/example_18.js',
       output: {
-        dir: 'dist/sj_layout_three',
+        dir: 'dist/example_18',
         format: 'es',
         entryFileNames: '[name].js',
         esModule: false,
